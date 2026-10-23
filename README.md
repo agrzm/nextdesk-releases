@@ -89,18 +89,19 @@ Bir güvenlik açığı bulduysanız lütfen herkese açık bir yerde paylaşmak
 
 ## Planlar
 
-| | Ücretsiz | Premium |
-|---|---|---|
-| Uzak masaüstü, sohbet, dosya aktarımı | ✅ | ✅ |
-| Cihaz sayısı | 3 | Sınırsız |
-| Dosya aktarımı | Dosya başına 1 GB | Sınırsız |
-| Toplantı (bağlanan dahil) | 2 kişi | 5 kişi |
-| Mikrofon | — | ✅ |
-| Ticari kullanım | — | ✅ |
-| Öncelikli destek | — | ✅ |
-| Fiyat | 0 ₺ | 300 ₺ / ay (Türkiye) · 30 $ / ay |
+| | Free | Pro | Kurumsal |
+|---|---|---|---|
+| Uzak masaüstü, sohbet, sesli konuşma | ✅ | ✅ | ✅ |
+| Bağlı cihaz | 2 | 3 | 5 + ek cihaz |
+| Oturumdaki kişi (bağlanan dahil) | 2 | 4 | 4 |
+| Görüntülü konuşma (kamera) | — | ✅ | ✅ |
+| Kayıt ve canlı yayın kalitesi | 1080p 30 FPS | 4K 60 FPS | Sınırsız |
+| Dosya aktarımı | Dosya başına 1 GB | Sınırsız | Sınırsız |
+| Ticari kullanım | — | ✅ | ✅ |
+| Öncelikli destek | — | — | ✅ |
+| Fiyat | 0 ₺ | 300 ₺ / ay (Türkiye) · 30 $ / ay | Yakında |
 
-Yeni kurulumlar **30 gün** boyunca hesap açmadan kullanılabilir; sonrasında ücretsiz bir NextDesk hesabı gerekir. Premium satın alma yakında [nextdesk.tr/fiyatlar](https://nextdesk.tr/fiyatlar/) üzerinden açılacak.
+Yeni kurulumlar **30 gün** boyunca hesap açmadan Free özellikleriyle kullanılabilir; sonrasında [nextdesk.tr](https://nextdesk.tr) üzerinden ücretsiz üye olup cihazınızı hesabınıza bağlamanız gerekir. Pro ve Kurumsal satın alma yakında [nextdesk.tr/fiyatlar](https://nextdesk.tr/fiyatlar/) üzerinden açılacak.
 
 ## Ekran görüntüleri
 
@@ -157,7 +158,7 @@ Hayır. NextDesk tescilli bir yazılımdır; bu depo yalnızca sürümleri, belg
 
 **v1.0** (hesap ve lisans sistemi yayına girince):
 
-- [ ] nextdesk.tr hesabı, 30 günlük deneme, Premium satın alma
+- [ ] nextdesk.tr hesabı, 30 günlük deneme, Pro ve Kurumsal satın alma
 - [ ] Otomatik güncelleme
 - [ ] Güvenilir cihazlar — evdeki bilgisayarınıza dışarıdan onaysız bağlanma
 - [ ] Windows açılınca başlatma ve kilit ekranı erişimi
