@@ -14,7 +14,7 @@ Uzak masaüstü, dosya aktarımı, sohbet ve toplantı — uçtan uca şifreli, 
 ![Mimari](https://img.shields.io/badge/mimari-x64-555)
 ![Lisans](https://img.shields.io/badge/lisans-tescilli-lightgrey)
 
-**[⬇️ NextDesk'i indir](../../releases/latest)** · [nextdesk.tr](https://nextdesk.tr) · [Gizlilik](https://nextdesk.tr/gizlilik-politikasi/) · [Hata bildir](../../issues/new/choose)
+**[⬇️ NextDesk'i indir](../../releases/latest)** · [nextdesk.tr](https://nextdesk.tr) · [Gizlilik](https://nextdesk.tr/gizlilik-politikasi/) · [Öneri ve destek](https://nextdesk.tr)
 
 </div>
 
@@ -85,7 +85,7 @@ Oturum sırasında üst çubuktan sohbet, mikrofon, kamera, dosya aktarımı ve 
 - **Yerel sırlar şifreli.** Cihaz anahtarı, hesap anahtarı ve yayın anahtarları Windows'un kullanıcıya özel şifrelemesiyle (DPAPI) korunur.
 - **Kötüye kullanıma karşı.** Başarısız giriş ve bağlantı denemeleri sınırlanır ve güvenlik kayıtlarına yazılır.
 
-Bir güvenlik açığı bulduysanız lütfen herkese açık bir issue yerine **gerginadam0@gmail.com** adresine yazın.
+Bir güvenlik açığı bulduysanız lütfen herkese açık bir yerde paylaşmak yerine [nextdesk.tr](https://nextdesk.tr) üzerinden bize ulaşın.
 
 ## Planlar
 
@@ -168,9 +168,7 @@ Hayır. NextDesk tescilli bir yazılımdır; bu depo yalnızca sürümleri, belg
 
 ## Destek
 
-- **Hata ve öneri:** [Issues](../../issues/new/choose)
-- **E-posta:** gerginadam0@gmail.com
-- **Web:** [nextdesk.tr](https://nextdesk.tr)
+Hata bildirimi, öneri, istek ve destek için **[nextdesk.tr](https://nextdesk.tr)** üzerinden bize ulaşın. Öneri ve istek sayfası yakında sitede açılacak.
 
 ---
 
@@ -180,7 +178,7 @@ Hayır. NextDesk tescilli bir yazılımdır; bu depo yalnızca sürümleri, belg
 
 **[Download the latest release](../../releases/latest)** (single `NextDesk.exe`, no installation; the UI is in Turkish). As this beta is not code-signed yet, Windows SmartScreen may warn on first launch: choose **More info → Run anyway**. Verify the download with `Get-FileHash .\NextDesk.exe -Algorithm SHA256` against `NextDesk.exe.sha256`.
 
-NextDesk is proprietary software; this repository hosts releases, documentation and issue reports only. Report security issues privately to **gerginadam0@gmail.com**.
+NextDesk is proprietary software; this repository hosts releases and documentation only. For support, suggestions and security reports, please contact us through **[nextdesk.tr](https://nextdesk.tr)**.
 
 ---
 
