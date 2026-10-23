@@ -1,0 +1,15 @@
+name: Özellik önerisi
+description: NextDesk için bir fikir ya da istek paylaşın
+labels: ["öneri"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Öneriniz
+      description: Neyi yapabilmek istiyorsunuz? Hangi sorunu çözer?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Şu an nasıl idare ediyorsunuz?

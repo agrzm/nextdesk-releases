@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Güvenlik açığı bildirimi
+    url: mailto:gerginadam0@gmail.com
+    about: Güvenlik açıklarını herkese açık issue yerine e-postayla bildirin.
+  - name: nextdesk.tr
+    url: https://nextdesk.tr
+    about: Web sitesi, fiyatlar ve gizlilik politikası

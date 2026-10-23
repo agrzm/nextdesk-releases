@@ -1,0 +1,58 @@
+name: Hata bildirimi
+description: NextDesk'te karşılaştığınız bir sorunu bildirin
+labels: ["hata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Güvenlik açıklarını burada değil, **gerginadam0@gmail.com** adresine bildirin.
+        Cihaz kimliği, IP adresi, parola gibi kişisel bilgileri paylaşmayın.
+  - type: input
+    id: version
+    attributes:
+      label: NextDesk sürümü
+      description: Ayarlar → Hakkında ya da sol alttaki sürüm numarası
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows sürümü
+      options:
+        - Windows 11
+        - Windows 10
+        - Diğer
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Sorun hangi tarafta?
+      options:
+        - Bağlanan (karşı ekranı gören) taraf
+        - Bağlanılan (ekranı paylaşılan) taraf
+        - İkisi de / bağlantı kurulamıyor
+        - Bağlantıdan bağımsız (kayıt, yayın, ayarlar…)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Ne oldu?
+      description: Ne yapmaya çalıştınız, ne bekliyordunuz, ne oldu?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Tekrarlamak için adımlar
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: log
+    attributes:
+      label: Uygulama günlüğü (isteğe bağlı)
+      description: "%LOCALAPPDATA%\\NextDesk\\logs\\ altındaki son app_*.log dosyasının ilgili satırları. Kişisel bilgileri silin."
+      render: text
